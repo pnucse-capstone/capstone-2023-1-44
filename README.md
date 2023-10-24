@@ -148,7 +148,7 @@ CREATE TABLE `abnormal_action` (
 
 ### 2. mmave 센서
 IWR6843ISK + DCA1000EVM 보드를 사용</br> 
-보드를 사용법은 IWR6843ISK 메뉴얼을 참고하여 설치 및 실행한다. 
+보드를 사용법은 mmMesh-master파일 안의 IWR6843ISK 메뉴얼을 참고하여 설치 및 실행한다. 
 
 * python은 3.8.* version을 사용
 * realtime_pc_gen.py 파일을 실행하면서 필요한 package 설치가 필요하다.
