@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movement_detect">
+
+    <ImageView
+        android:id="@+id/act_image"
+        android:layout_width="338dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="17dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/action_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/action_name"
+        android:layout_width="342dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="119dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act_image"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/get_action"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:backgroundTint="#2C2C2C"-->
+    <!--        android:fontFamily="@font/scdream"-->
+    <!--        android:text="행동불러오기"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.942"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.992" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

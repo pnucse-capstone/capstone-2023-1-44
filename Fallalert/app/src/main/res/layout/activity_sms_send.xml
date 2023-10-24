@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsSend">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="@font/scdream"
+        android:text="SMS 발송 기능"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:fontFamily="@font/scdream"
+        android:hint="핸드폰 번호를 입력해주세요."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+    <Button
+        android:id="@+id/send_sms_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#323232"
+        android:fontFamily="@font/scdream"
+        android:text="번호 저장"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/input_phone_num"
+        app:layout_constraintStart_toStartOf="@+id/input_phone_num"
+        app:layout_constraintTop_toBottomOf="@+id/input_phone_num" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
