@@ -90,7 +90,7 @@
 
 ## 소개 및 시연 영상
 
-프로젝트 소개나 시연 영상을 넣으세요.
+[![2023년 전기 졸업과제 44 뜨거운 아아]((https://www.youtube.com/vi/FYeGC1-U2Ug/0.jpg)](https://www.youtube.com/watch?v=FYeGC1-U2Ug)
 
 ## 사용법
 mmwave센서를 linux환경에서 실행하였기 때문에 서버 실행 및 DB 생성 또한 linux환경에서 이루어지게하였다.
